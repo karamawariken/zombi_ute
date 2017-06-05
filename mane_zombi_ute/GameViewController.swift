@@ -27,7 +27,9 @@ class GameViewController: UIViewController {
             
             view.ignoresSiblingOrder = true
             
+            //1秒間に描画するフレーム数
             view.showsFPS = true
+            //表示しているスプライトノードの合計数
             view.showsNodeCount = true
         }
     }
