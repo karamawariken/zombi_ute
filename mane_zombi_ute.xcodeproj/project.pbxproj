@@ -15,7 +15,6 @@
 		454186E81EDD66F40067F244 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454186E61EDD66F40067F244 /* LaunchScreen.storyboard */; };
 		454186F31EDD66F40067F244 /* mane_zombi_uteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454186F21EDD66F40067F244 /* mane_zombi_uteTests.swift */; };
 		454186FE1EDD66F50067F244 /* mane_zombi_uteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454186FD1EDD66F50067F244 /* mane_zombi_uteUITests.swift */; };
-		4541870C1EDD67310067F244 /* TitleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4541870B1EDD67310067F244 /* TitleScene.swift */; };
 		4541870E1EDEA9910067F244 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 4541870D1EDEA9910067F244 /* Sounds */; };
 		454187101EE4820B0067F244 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4541870F1EE4820B0067F244 /* background.jpg */; };
 		454187121EE483780067F244 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 454187111EE483780067F244 /* GameScene.sks */; };
@@ -53,7 +52,6 @@
 		454186F91EDD66F40067F244 /* mane_zombi_uteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mane_zombi_uteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		454186FD1EDD66F50067F244 /* mane_zombi_uteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mane_zombi_uteUITests.swift; sourceTree = "<group>"; };
 		454186FF1EDD66F50067F244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4541870B1EDD67310067F244 /* TitleScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleScene.swift; sourceTree = "<group>"; };
 		4541870D1EDEA9910067F244 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 		4541870F1EE4820B0067F244 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		454187111EE483780067F244 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -109,7 +107,6 @@
 			children = (
 				454186D71EDD66F40067F244 /* AppDelegate.swift */,
 				454186DD1EDD66F40067F244 /* GameScene.swift */,
-				4541870B1EDD67310067F244 /* TitleScene.swift */,
 				454186DF1EDD66F40067F244 /* GameViewController.swift */,
 				454187111EE483780067F244 /* GameScene.sks */,
 				454186E11EDD66F40067F244 /* Main.storyboard */,
@@ -283,7 +280,6 @@
 				454186DE1EDD66F40067F244 /* GameScene.swift in Sources */,
 				454186E01EDD66F40067F244 /* GameViewController.swift in Sources */,
 				454186D81EDD66F40067F244 /* AppDelegate.swift in Sources */,
-				4541870C1EDD67310067F244 /* TitleScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,6 +530,7 @@
 				454187041EDD66F50067F244 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		454187051EDD66F50067F244 /* Build configuration list for PBXNativeTarget "mane_zombi_uteTests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +539,7 @@
 				454187071EDD66F50067F244 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		454187081EDD66F50067F244 /* Build configuration list for PBXNativeTarget "mane_zombi_uteUITests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +548,7 @@
 				4541870A1EDD66F50067F244 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
