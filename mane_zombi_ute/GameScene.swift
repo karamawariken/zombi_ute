@@ -48,8 +48,12 @@ class GameScene: SKScene {
         
         self.addChild(combo_text)
         
-        //ナマケモノ10匹生成
+        
+        
+        
+        //ナマケモノ8匹生成
         for i in (0 ..< 8){
+            //ナマケモノのデータを使って、コピーを作成
             let player_copy = player.copy() as! SKSpriteNode
             player_copy.name = "namakemono"
             player_copy.setScale(3)
@@ -71,7 +75,7 @@ class GameScene: SKScene {
         }
         
         //動き作成
-        sprite_move = SKAction .rotate(byAngle: CGFloat(2 * M_PI), duration: 1.0)
+        sprite_move = SKAction .rotate(byAngle: CGFloat(1 * M_PI), duration: 1.0)
     }
     
     
@@ -89,11 +93,11 @@ class GameScene: SKScene {
             let touchNode = self.nodes(at: location).first
             //タップした枕を取得
             if(touchNode == makura_left && touchNode?.position.x == remove_sprite.position.x){
-                sucess_tap()
+                success_tap()
             } else if (touchNode == makura_center && touchNode?.position.x == remove_sprite.position.x){
-                sucess_tap()
+                success_tap()
             } else if(touchNode == makura_right && touchNode?.position.x == remove_sprite.position.x){
-                sucess_tap()
+                success_tap()
             } else {
                 combo = 0
                 combo_text.text = ""
@@ -102,7 +106,7 @@ class GameScene: SKScene {
         }
     }
     
-    func sucess_tap(){
+    func success_tap(){
         let num = arc4random() % 3
         switch num {
         case 0:
