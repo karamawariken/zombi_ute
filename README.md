@@ -5,4 +5,4 @@
 
 [「ゾンビ撃て」をswift3.0で守破る！ Part.1](http://karamawariken.net/blog/2017/06/06/zombi_ute_part1/)
 
-[「ゾンビ撃て」をswift3.0で守破る！ Part.2](http://karamawariken.net/blog/2017/06/06/zombi_ute_part2/)
+[「ゾンビ撃て」をswift3.0で守破る！ Part.2](http://karamawariken.net/blog/2017/06/22/zombi_ute_part2/)
